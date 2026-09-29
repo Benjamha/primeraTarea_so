@@ -8,12 +8,6 @@ Procesos, Tuberías y Señales
 Para compilar el programa:
 
 ```bash
-make
-```
-
-También se puede compilar directamente con:
-
-```bash
 g++ -Wall -Wextra -std=c++17 -o planificador planificador.cpp -lpthread
 ```
 
@@ -88,7 +82,6 @@ Por ejemplo:
 ## Archivos del proyecto
 
 - `planificador.cpp`: código fuente del planificador.
-- `Makefile`: archivo para compilar el programa.
 - `plan.txt`: plan de ejemplo.
 - `plan_stress.txt`: plan para pruebas de carga.
 - `README.md`: documentación del proyecto.
