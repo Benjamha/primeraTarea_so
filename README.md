@@ -11,8 +11,6 @@ Para compilar el programa:
 g++ -Wall -Wextra -std=c++17 -o planificador planificador.cpp -lpthread
 ```
 
-El programa no utiliza threads.
-
 ## Uso
 
 ```bash
